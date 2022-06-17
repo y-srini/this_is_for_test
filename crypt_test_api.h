@@ -23,7 +23,7 @@ extern "C" {
  */
 typedef enum crypto_status {
   // Status is OK; no errors.
-  kCryptoStatusOK = 0x7d9c,
+  kCryptoStatusOK = 0x7d82,
   // Invalid input arguments; Wrong length or invalid type.
   kCryptoIncorrectInput = 0x6b7f,
   // Inconsistencies when cross-checking results, witness, checksums.
