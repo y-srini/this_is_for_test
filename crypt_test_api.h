@@ -27,7 +27,7 @@ typedef enum crypto_status {
   // Invalid input arguments; Wrong length or invalid type.
   kCryptoIncorrectInput = 0x6b7f,
   // Inconsistencies when cross-checking results, witness, checksums.
-  kCryptoStatusInternalError = 0x4753,
+  kCryptoStatusInternalError = 0x4757,
   // An asynchronous operation is still in progress.
   kCryptoStatusAsyncIncomplete = 0xe2b9,
 } crypto_status_t;
