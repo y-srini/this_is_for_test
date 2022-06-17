@@ -29,7 +29,7 @@ typedef enum crypto_status {
   // Inconsistencies when cross-checking results, witness, checksums.
   kCryptoStatusInternalError = 0x4753,
   // An asynchronous operation is still in progress.
-  kCryptoStatusAsyncIncomplete = 0xe2b7,
+  kCryptoStatusAsyncIncomplete = 0xe2b9,
 } crypto_status_t;
 
 /**
