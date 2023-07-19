@@ -52,7 +52,7 @@ typedef enum verification_status {
  */
 typedef enum key_mode {
   // AES ECB mode.
-  kKeyModeAesEcb = 0x0301,
+  kKeyModeAesEcb = 0x0303,
   // AES CBC mode.
   kKeyModeAesCbc = 0x0102,
   // AES CFB mode.
